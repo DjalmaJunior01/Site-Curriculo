@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;}
+
+
+
+     body {
+         background: #0e0727 ;
+         text-align: center;
+         color: white;
+         font-family: serif;
+     }  
+
+   /**Primeiro Bloco de informações (foto de perfil e apresentação/ /**/
+   .topo{
+       position: absolute; 
+       left: 450px;
+       letter-spacing: 1px;
+       top: 2%;   
+       font-size: 25px;
+       border: rgb(52, 71, 241) 3px solid ; line-height: 70px;
+       background: #1c1c1c;
+       width: 1000px;
+       height: 300px;
+   }
+   #fonte-topo{
+      position: absolute;
+      top: 70%;
+      left: 100px;
+    }
+     
+     .foto_perfil {
+         position: absolute;
+         left: 400px;
+         top: 5%;
+         width: 200px; border-radius: 10px;
+         height: 200px;
+    }
+     .foto_perfil img{
+             border-radius: 30px;
+             border: rgb(52, 71, 241) solid 5px ;
+     }
+/** /fim----------------------------- /**/
+
+         /** /informações relativas ao Primeiro quadro a Esquerda/**/
+    .quadro{
+        border: solid rgb(52, 71, 241) 5px;
+        height: 320px;
+        width: 415px;
+        position: absolute;
+        left: 200px;
+        top: 57%;
+        background: #1c1c1c;
+        font-size: 2em;
+    }
+    .links_PPC{
+        position: absolute;
+        top: 20%;
+    }
+    /** /fim----------------------------- /**/
+
+
+    /** /Informções quadro do Meio/**/
+     .quadro2{
+        border: solid rgb(52, 71, 241) 5px;
+        font-size: 2em;
+        height: 450px;
+        width: 400px;
+        position: absolute;
+        left: 730px;
+        top: 40%;
+        background: #1c1c1c;
+        
+     }
+     /** /fim----------------------------- /**/
+
+     /** /Informções do Ultimo quadro /**/
+     .quadro3{
+        border: solid rgb(52, 71, 241) 5px;
+        height: 320px;
+        width: 415px;
+        position: absolute;
+        left: 1250px;
+        top: 57%;
+        background:#1c1c1c;
+        font-size: 2em;
+        
+        
+     }
+     #contato{
+         padding: 80px;
+     }
+     /** /fim----------------------------- /**/
+
+
+     /** /Segunda Pagina (contato.html) /**/
+     
+     .Telefone{
+        position: absolute;
+        top: 25%;
+        right: 30%;
+        padding: 30px;
+        font-size: 40px;
+        background: #1c1c1c;
+        height: 500px;
+        width: 800px;
+        border-radius: 20px;
+        z-index: 1;
+    
+    }
+
+    #fonte_telefone{
+        padding: 90px;
+        font-size: 60px;
+        
+    }
+    #whatsapp img{
+       
+        width: 300px;
+        position: absolute;
+        left: 140px;
+        top: 140px;
+        padding: 150px;
+    
+    }
+    #voltar{
+        width: 100px;
+        z-index: 2;
+        position: absolute;
+        left: 500px;
+        top: 27%;
+    }
+
+    /** /fim----------------------------- /**/
+
+
+    #rodape{
+        height: 50px;
+        width: 100%;
+        background: rgb(52, 71, 241) ;
+        position: absolute;
+        bottom: 0;
+    }
+    #fonte-rodape{
+        padding: 15px;
+    }
+
+    @media only screen and (max-device-width: 900px) {
+
+        /* .menu { width:100%; } */
+        .quadro{
+            position: absolute;
+            top: 5%;
+            left: 0%;
+        }
+        }
